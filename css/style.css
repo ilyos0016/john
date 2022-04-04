@@ -1,0 +1,314 @@
+/* heebo-regular - latin */
+@font-face {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/heebo-v18-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/heebo-v18-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* heebo-500 - latin */
+@font-face {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+       url('../fonts/heebo-v18-latin-500.woff2') format('woff2'),/* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/heebo-v18-latin-500.woff') format('woff'); * Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* heebo-700 - latin */
+@font-face {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+       url('../fonts/heebo-v18-latin-700.woff2') format('woff2'),/* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/heebo-v18-latin-700.woff') format('woff'); * Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* heebo-900 - latin */
+@font-face {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+       url('../fonts/heebo-v18-latin-900.woff2') format('woff2'),/* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/heebo-v18-latin-900.woff') format('woff'); * Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* global styles */
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    height: 100%;
+}
+body{
+    font-family:'Heebo';
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.35rem;
+    color:var(--basic-color);
+    scroll-behavior: smooth;
+    height: 100%;
+    background-color: #fff;
+}
+.container{
+    width: 100%;
+    max-width: 896px;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+/* variables */
+:root{
+    --basic-color:#21243D;
+    --btn-bg-hover:#FF6464;
+    --recents-bgc:#EDF7FA;
+    --white-color:#fff;
+    --linker-color:#00A8CC;
+    --year-bgc:#142850;
+    --light-color:#8695A4;
+    --nav-item-color:#000;
+    --hr-color:#E0E0E0;
+}
+/* /global styles */
+
+
+
+/* HEADER SECTION */
+.header { 
+    padding: 2.7rem 0;
+}
+.header-container {
+    width: 100%;
+    max-width: 944px;
+    padding: 0 6rem;
+    margin: 0 auto;
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin-left: 690px;
+}
+.nav-item:not(:last-child) {
+    margin-right: 3.3rem;
+
+
+}
+.nav-item a:hover{
+    opacity: 0.8;
+
+}
+.nav-item a:active{
+    opacity: 0.6;
+
+}
+.nav-item a{
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.938rem;
+    color: var(--nav-item-color);
+    text-decoration: none;
+    display: inline-block;
+    
+
+}
+
+
+/* MAIN SECTION */
+
+
+/* hero */
+.main {
+}
+
+
+
+.hero {
+    padding:11.13rem 0 7.1rem 0 ;
+}
+.hero-parent {
+    display: flex;
+    justify-content: space-between;
+
+}
+.hero-text-content {
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 4.4rem;
+    line-height: 6rem;
+    color: var(--basic-color);
+    margin-bottom: 4rem;
+}
+.hero-text{
+    width: 497px;
+    margin-bottom: 3.8rem;
+}
+
+.hero-btn {
+    font-weight: 500;
+    font-size: 2rem;
+    padding: 1.7rem 2rem;
+    color: var(--white-color);
+    background-color: var(--btn-bg-hover);
+    border-radius: 0.2rem;
+    border: none;
+}
+.hero-img img{
+    box-shadow: -5px 13px 0 #EDF7FA;
+    border-radius: 50%;
+    margin-top: -2rem;
+}
+/* recents */
+.recents{
+    background-color: var(--recents-bgc);
+    padding-bottom: 3.2rem;
+}
+.recents-parent {
+    display: flex;
+    flex-direction: column;
+}
+.recents-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.recents-title {
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 6rem;
+    color: var(--basic-color);
+}
+.recents-view-all {
+    text-decoration: none;
+    color: var(--linker-color);
+}
+.recents-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.recents-card {
+    display: inline-block;
+    background-color: var(--white-color);
+    border-radius: 0.4rem;
+    padding: 2.4rem 2.1rem 2rem 2.3rem;
+}
+.recents-card-title { 
+    width: 374px;
+    font-weight: 700;
+    font-size: 2.6rem;
+    line-height: 3.819rem;
+    color: var(--basic-color);
+    margin-bottom: 1.7rem;
+
+}
+.recents-subtitle-rower{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.8rem;
+}
+.recents-card-subtitle:not(:last-child){
+    border-right: 1px solid var(--nav-item-color);
+    margin-right: 2.5rem;
+    padding-right: 2.5rem;
+
+}
+
+.recents-card-subtitle {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.644rem;
+    color: var(--basic-color);
+}
+.recents-card-paragraph {   
+    width: 368px;
+
+}
+/* featured */
+.featured {
+    padding: 1.5rem 0 8.3rem 0;
+}
+.featured-top0title {
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 6rem;
+    color: var(--basic-color);
+    margin-bottom: 2.4rem;
+}
+.featured-card:not(:last-child){
+    margin-bottom: 3.1rem;
+}
+.featured-card {
+    text-decoration: none;
+    display: flex;
+    border-bottom: 1px solid #E0E0E0 ;
+    padding-bottom: 3rem;
+}
+.featured-card-img {
+    margin-right: 1.8rem;
+}
+.featured-card-text {
+    margin-top: 1rem;
+}
+.featured-card-title {
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--basic-color);
+    margin-bottom: 2rem;
+}
+.featured-card-subtitle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.2rem;
+}
+.featured-card-year-bg {
+    width: 6.2rem;
+    height: 2.5rem;
+    border-radius: 1.6rem;
+    background-color: var(--year-bgc);
+    text-align: center;
+    display: block;
+    margin-right: 2.6rem;
+}
+.featured-card-year {
+    font-weight: 900;
+    font-size: 1.8rem;
+    color: var(--white-color);
+
+}
+.featured-card-recommend {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.938rem;
+    color: var(--basic-color);
+}
+.featured-card-paragraph{
+    font-weight: 400;
+    color: var(--basic-color);
+}
+/* footer section */
+.footer {
+    text-align: center;
+    padding: 5.1rem 0 5.4rem 0;
+}
+.social-media{
+    margin-bottom: 1.3rem;
+}
+.social-media a:not(:last-child) {
+    margin-right: 3.3rem;
+    
+
+}
+.copyright {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.56rem;
+    color: var(--basic-color);
+}
