@@ -93,7 +93,10 @@ body{
 .nav-list {
     display: flex;
     list-style: none;
-    margin-left: 690px;
+    margin-left: 710px;
+}
+.threeline{
+    display: none;
 }
 .nav-item:not(:last-child) {
     margin-right: 3.3rem;
@@ -124,9 +127,6 @@ body{
 
 
 /* hero */
-.main {
-}
-
 
 
 .hero {
