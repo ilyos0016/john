@@ -153,7 +153,12 @@ body{
     width: 497px;
     margin-bottom: 3.8rem;
 }
-
+.hero-btn:hover{
+    opacity: 0.8;
+}
+.hero-btn:active{
+    opacity: 0.6;
+}
 .hero-btn {
     font-weight: 500;
     font-size: 2rem;
