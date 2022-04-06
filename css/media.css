@@ -170,9 +170,7 @@
         margin-bottom: 2.4rem;
     }
     
-    .featured-card:not(:nth-child(2)){
-        display: none;
-    }
+   
 
     .featured-card {
         text-decoration: none;
