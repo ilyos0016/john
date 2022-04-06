@@ -275,5 +275,88 @@
         line-height: 2.35rem;
         color: var(--light-color);
     }
+    /* detail section */
+
+    /* detail main top */
+    .main-top {
+        margin-top: 7.8rem;
+        margin-bottom: 5.4rem;
+    }
+    .detail-container {
+        width: 100%;
+        max-width: 375px;
+        padding: 0 1.8rem;
+        margin: 0 auto;
+    }
+    .main-top-title {
+        width: 339px;
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 4rem;
+        color: var(--basic-color);
+        margin-bottom: 2.3rem;
+    }
+    .main-top-wrap {
+        display: flex;
+        margin-bottom: 2.4rem;
+    }
+    .main-top-year-bg {
+        width: 62px;
+        height: 25px;
+        border-radius: 1.6rem;
+        background-color: var(--btn-bg-hover);
+        display: flex;
+        justify-content: center;
+        align-self: flex-start;
+        padding: 0.2rem;
+        margin-right: 1.5rem;
+    }
+    .main-top-year {
+        font-weight: 900;
+        font-size: 1.8rem;
+        color: var(--white-color);
+    }
+    .main-top-recommend {
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 2.64rem;
+        color: var(--basic-color);
+    }
+    .main-top-paragraph {
+        font-weight: 400;
+        margin-bottom: 2.3rem;
+    }
+    .main-top-image{
+        width: 339px;
+        height: 339px;
+    }
+    /* detail main center */
+    .main-center-text-conten {
+        margin-bottom: 2.4rem;
+    }
+    .main-center-title {
+        font-weight: 500;
+        font-size: 2.6rem;
+        line-height: 6rem;
+        color: var(--basic-color);
+    }
+    .main-center-subtitle {
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 6rem;
+        color: var(--basic-color);
+    }
+    .main-center-paragraph {
+        font-weight: 400;
+        width: 339px;
+    }
+    .main-center-img-cover {
+        margin-bottom: 0.7rem;
+    } 
+    .main-center-img{ 
+        width:339px; 
+        height:339px;
+        margin-bottom: 2.3rem;
+    }
 
 }
