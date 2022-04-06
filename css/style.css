@@ -98,9 +98,7 @@ body{
     list-style: none;
     margin-left: 710px;
 }
-.active{
-    color:var(--btn-bg-hover) ; 
-}
+
 .threeline{
     display: none;
 }
@@ -117,7 +115,7 @@ body{
     opacity: 0.6;
 
 }
-.nav-item a{
+.nav-item-link{
     font-weight: 500;
     font-size: 2rem;
     line-height: 2.938rem;
@@ -126,6 +124,9 @@ body{
     display: inline-block;
     
 
+}
+.active1{
+    color:var(--btn-bg-hover) ; 
 }
 
 
@@ -325,9 +326,6 @@ body{
 }
 
 /* NAV BLOG SECTION */
-.blog {
-    
-}
 .blog-container {
     width: 100%;
     max-width: 722px;
