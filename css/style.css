@@ -144,8 +144,6 @@ body{
     justify-content: space-between;
 
 }
-.hero-text-content {
-}
 .hero-title {
     font-weight: 700;
     font-size: 4.4rem;
@@ -242,6 +240,14 @@ body{
 .recents-card-paragraph {   
     width: 368px;
 
+}
+/* featured works top title */
+.works-featured-top-title{
+    font-weight: 900;
+    font-size: 4.4rem;
+    line-height: 6rem;
+    color: var(--basic-color);
+    margin-bottom: 2.5rem;
 }
 /* featured */
 .featured {
