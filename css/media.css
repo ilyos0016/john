@@ -35,6 +35,7 @@
         width: 3rem;
         height:0.4rem;
         background-color: var(--basic-color);
+        padding: 0;
 
     }
         /* MAIN SECTION */
@@ -158,7 +159,7 @@
     .featured {
         padding: 1.5rem 0 8.3rem 0;
     }
-    .featured-only-mobile{
+    .featured-only-mobile .featured-top0title {
         text-align: center;
     }
     .featured-top0title {
@@ -168,26 +169,30 @@
         color: var(--basic-color);
         margin-bottom: 2.4rem;
     }
-    .featured-card:not(:last-child){
-        margin-bottom: 3.1rem;
+    
+    .featured-card:not(:nth-child(2)){
+        display: none;
     }
+
     .featured-card {
         text-decoration: none;
         display: flex;
+        flex-direction: column;
         border-bottom: 1px solid #E0E0E0 ;
         padding-bottom: 3rem;
     }
-    .featured-card-img {
-        margin-right: 1.8rem;
+    .featured-card-img img {
+        width: 339px;
+        height: 230px;
     }
     .featured-card-text {
         margin-top: 1rem;
     }
     .featured-card-title {
         font-weight: 700;
-        font-size: 3rem;
+        font-size: 2.4rem;
         color: var(--basic-color);
-        margin-bottom: 2rem;
+        line-height: 3rem;
     }
     .featured-card-subtitle {
         display: flex;
@@ -205,14 +210,12 @@
     }
     .featured-card-year {
         font-weight: 900;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         color: var(--white-color);
     
     }
     .featured-card-recommend {
         font-weight: 400;
-        font-size: 2rem;
-        line-height: 2.938rem;
         color: var(--basic-color);
     }
     .featured-card-paragraph{
@@ -220,7 +223,5 @@
         color: var(--basic-color);
     }
             
-            
-        
 
 }
